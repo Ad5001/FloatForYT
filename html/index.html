@@ -1,0 +1,34 @@
+<!--
+index.html by Ad5001
+(C) Ad5001 2017
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/tabs.css" />
+        <link rel="stylesheet" href="../css/generic.css" />
+        <script src="../js/main.js"></script>
+        <script src="../js/communication.js"></script>
+        <script src="../js/tabs.js"></script>
+        <title>{}</title><!-- Compatibility-->
+    </head>
+    <body>
+        <ul id="tabSelector" class="hide hidden">
+            <li href="home">Home</li>
+            <li href="credits">Credits</li>
+        </ul>
+        <header type="pageheader"><button class="showTabList"></button><p>Home</p></header>
+
+        <!-- Tabs list -->
+
+        <tab active="true" id="home">
+            <textarea id="youtube" placeholder="Paste your youtube URL here"></textarea>
+        </tab>
+
+        <tab active="false" id="credits" class="slideLeft">
+            <h3>This app was by Ad5001 to allow you adding always on top youtube videos</h1>
+            <footer>(C) Ad5001 2017</footer>
+        </tab>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Float for youtube
+Comment=A new window to watch youtube videos !
+Exec=/usr/share/floatforyt/floatforyt
+Icon=/usr/share/floatforyt/images/icon.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Internet;

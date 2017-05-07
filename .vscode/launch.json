@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type":"bashdb",
+            "request": "launch",
+            "name": "Compiler",
+            "bashPath": "/bin/sh",
+            "commandLineArguments": "",
+            "scriptPath": "${workspaceRoot}/build.sh"
+        },
+        {
+            "type":"bashdb",
+            "request": "launch",
+            "name": "Executer",
+            "bashPath": "/bin/sh",
+            "commandLineArguments": "",
+            "scriptPath": "${workspaceRoot}/bin/floatforyoutube"
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "bashPath": "/bin/sh",
+            "name": "Debugger",
+            "scriptPath": "/usr/bin/gjs",
+            "commandLineArguments": "${workspaceRoot}/Main.js"
+        }
+    ]
+}
