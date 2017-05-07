@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Do you wish to install this program? (Yes/No)"
+echo "Do you wish to uninstall this program? (Yes/No)"
 read yn
     case $yn in
         Yes ) break;;
